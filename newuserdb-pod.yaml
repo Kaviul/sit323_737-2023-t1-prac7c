@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: newuserdb-pod
+spec:
+  containers:
+    - name: new-userdb
+      image: kaviuln/image_7.1:2
+      ports:
+        - containerPort: 1334
